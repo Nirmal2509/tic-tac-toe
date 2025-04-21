@@ -1,0 +1,62 @@
+# Tic-Tac-Toe with AI (Minimax Algorithm)
+
+This is a terminal-based Tic-Tac-Toe game where a human player competes against an AI opponent. The AI uses the Minimax algorithm with alpha-beta pruning to make optimal decisions.
+
+## Features
+- Classic 3x3 Tic-Tac-Toe game.
+- Play against an intelligent AI opponent.
+- AI uses Minimax with alpha-beta pruning for optimal performance.
+- Handles invalid inputs and occupied cells gracefully.
+- Option to play again after each match.
+
+## How to Play
+- Run the script in your terminal.
+- Player X goes first.
+- Enter a number between 1 and 9 to place your move on the board:
+
+  1 | 2 | 3  
+  -----------  
+  4 | 5 | 6  
+  -----------  
+  7 | 8 | 9
+
+- The AI will respond automatically.
+- The game ends when there's a winner or the board is full (draw).
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x installed
+
+### Run the Game
+Run the following command in your terminal:
+
+python tic_tac_toe.py
+
+## Code Overview
+- display_board(board) – Displays the game board.
+- check_winner(board, player) – Checks for a win condition.
+- check_draw(board) – Checks for a draw.
+- minimax(...) – AI decision-making using Minimax with alpha-beta pruning.
+- ai_move(board) – Determines the best move for the AI.
+- play_game() – Main game loop.
+
+## Demo
+A sample interaction:
+
+Player X, enter your move (1-9): 5
+
+ _ | _ | _  
+-----------  
+ _ | X | _  
+-----------  
+ _ | _ | _  
+
+AI (O) is making its move...
+
+## License
+This project is open-source and free to use under the MIT License.
+
+## Author
+Nirmal Rajgor  
+GitHub: https://github.com/Nirmal2509
